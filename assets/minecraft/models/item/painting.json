@@ -5,6 +5,8 @@
  },
  
  "overrides": [
- {"predicate": {"custom_model_data":1000001}, "model": "custom/picture_frame1"}
- ]
+ {"predicate": {"custom_model_data":1000001}, "model": "custom/picture_frame1"},
+ {"predicate": {"custom_model_data":1020172}, "model": "custom/emporium_poster"},
+ {"predicate": {"custom_model_data":1056924}, "model": "custom/billboard1"}
+  ]
 }
