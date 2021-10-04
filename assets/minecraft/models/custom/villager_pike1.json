@@ -1,0 +1,125 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"3": "custom/villager_pike1"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 16, 4],
+			"to": [12, 26, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -22, 0]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4.5], "texture": "#3"},
+				"east": {"uv": [0, 2, 2, 4.5], "texture": "#3"},
+				"south": {"uv": [6, 2, 8, 4.5], "texture": "#3"},
+				"west": {"uv": [4, 2, 6, 4.5], "texture": "#3"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#3"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#3"}
+			}
+		},
+		{
+			"name": "nose",
+			"from": [7, 15, 2],
+			"to": [9, 19, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -22, 0]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 1, 1.5], "texture": "#3"},
+				"east": {"uv": [0, 0.5, 0.5, 1.5], "texture": "#3"},
+				"south": {"uv": [1.5, 0.5, 2, 1.5], "texture": "#3"},
+				"west": {"uv": [1, 0.5, 1.5, 1.5], "texture": "#3"},
+				"up": {"uv": [1, 0.5, 0.5, 0], "texture": "#3"},
+				"down": {"uv": [1.5, 0, 1, 0.5], "texture": "#3"}
+			}
+		},
+		{
+			"name": "pike1",
+			"from": [7, 0, 8],
+			"to": [9, 32, 8],
+			"faces": {
+				"north": {"uv": [1, 4.5, 1.5, 12.5], "texture": "#3"},
+				"east": {"uv": [1, 4.5, 1, 12.5], "texture": "#3"},
+				"south": {"uv": [1.5, 4.5, 2, 12.5], "texture": "#3"},
+				"west": {"uv": [1.5, 4.5, 1.5, 12.5], "texture": "#3"},
+				"up": {"uv": [1.5, 4.5, 1, 4.5], "texture": "#3"},
+				"down": {"uv": [2, 4.5, 1.5, 4.5], "texture": "#3"}
+			}
+		},
+		{
+			"name": "pike2",
+			"from": [8, 0, 7],
+			"to": [8, 32, 9],
+			"faces": {
+				"north": {"uv": [0.5, 4.5, 0.5, 12.5], "texture": "#3"},
+				"east": {"uv": [0, 4.5, 0.5, 12.5], "texture": "#3"},
+				"south": {"uv": [1, 4.5, 1, 12.5], "texture": "#3"},
+				"west": {"uv": [0.5, 4.5, 1, 12.5], "texture": "#3"},
+				"up": {"uv": [0.5, 4.5, 0.5, 4], "texture": "#3"},
+				"down": {"uv": [0.5, 4, 0.5, 4.5], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -3.25, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "main",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "head",
+					"origin": [0, 2, 0],
+					"color": 0,
+					"children": [0,
+						{
+							"name": "nose",
+							"origin": [0, 4, 0],
+							"color": 0,
+							"children": [1]
+						}
+					]
+				},
+				{
+					"name": "pike",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [2, 3]
+				}
+			]
+		}
+	]
+}

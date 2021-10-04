@@ -1,0 +1,10 @@
+{
+ "parent": "item/generated",
+ "textures": {
+ "layer0": "item/iron_bars"
+ },
+ 
+ "overrides": [
+ {"predicate": {"custom_model_data":10828102}, "model": "custom/villager_pike1"}
+  ]
+}
