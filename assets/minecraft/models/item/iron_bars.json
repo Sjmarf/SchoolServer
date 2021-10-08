@@ -5,6 +5,7 @@
  },
  
  "overrides": [
- {"predicate": {"custom_model_data":10828102}, "model": "custom/villager_pike1"}
+ {"predicate": {"custom_model_data":10828102}, "model": "custom/villager_pike1"},
+ {"predicate": {"custom_model_data":10392812}, "model": "custom/harry_pike"}
   ]
 }
